@@ -24,6 +24,7 @@ app.get('/about', (req, res) => {
     });
 });
 
+
 app.get('/bad', (req, res) => {
     // res.send('Hello boss!');
     res.send({
